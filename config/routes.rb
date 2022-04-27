@@ -4,5 +4,5 @@ Rails.application.routes.draw do
 
   devise_for :users
  	  root :to => "home#new"
- 	devise_for :doctors
+ 	  devise_for :doctors
 end
